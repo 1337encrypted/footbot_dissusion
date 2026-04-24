@@ -1,11 +1,11 @@
 # Obstacle Avoidance Solution
 
 ## Strategy
-
-Braitenberg Vehicle 3b ("Explorer") uses inhibitory crossed connections between sensors and wheels.
-Left-side sensors inhibit the right wheel.
-Right-side sensors inhibit the left wheel.
-The robot continuously steers away from obstacles, no thresholds, no pivoting in place.
+  
+Braitenberg Vehicle 3b ("Explorer") uses inhibitory crossed connections between sensors and wheels.   
+Left-side sensors inhibit the right wheel.   
+Right-side sensors inhibit the left wheel.    
+The robot continuously steers away from obstacles, no thresholds, no pivoting in place.    
 
 Source: Braitenberg, V. (1984). Vehicles: Experiments in Synthetic Psychology. MIT Press.
 
@@ -50,7 +50,7 @@ make
 cd ..
 ```
 
-### Run `diffusion_10.argos`
+### Run diffusion_10.argos
 
 ```bash
 argos3 -c experiments/diffusion_10.argos
