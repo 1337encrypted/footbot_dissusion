@@ -2,8 +2,7 @@
 
 ## Strategy
 
-Braitenberg Vehicle 3b ("Explorer") uses inhibitory crossed connections between
-sensors and wheels.
+Braitenberg Vehicle 3b ("Explorer") uses inhibitory crossed connections between sensors and wheels.
 Left-side sensors inhibit the right wheel.
 Right-side sensors inhibit the left wheel.
 The robot continuously steers away from obstacles, no thresholds, no pivoting in place.
